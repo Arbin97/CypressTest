@@ -3,14 +3,14 @@ describe('My First Test', () => {
       expect(true).to.equal(true)
     })
 
-    // Failing Test case again
-    it('Failed Test', () => {
-        expect(true).to.equal(false)
+    // passing Test case again
+    it('Passing Test', () => {
+        expect(2+3).to.equal(5)
       })
     
     // adding another passing test 
     it('Arithmetic Test',() => {
         expect(2+5).to.equal(7)
     })
-    
+
   })
