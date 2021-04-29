@@ -3,8 +3,8 @@ describe('My First Test', () => {
       expect(true).to.equal(true)
     })
 
-    // Failing Test case
-    it('Does not do much!', () => {
-        expect(true).to.equal(false)
+    // Not Failing Test case
+    it('summation', () => {
+        expect(2+3).to.equal(5)
       })
   })
