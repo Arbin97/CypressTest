@@ -13,4 +13,9 @@ describe('My First Test', () => {
         expect(2+5).to.equal(7)
     })
 
+    // adding another passing test 
+    it('Arithmetic Test 2',() => {
+        expect(true).to.equal(true)
+    })
+
   })
